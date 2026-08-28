@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 // Em Vercel ou Netlify, deixe "/".
 export default defineConfig({
   plugins: [react()],
-  base: process.env.VITE_BASE ?? '/amas-demonstrador/',
+  base: process.env.VITE_BASE ?? '/',
 })
